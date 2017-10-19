@@ -7,6 +7,7 @@ import {BuiltInValidatorComponent} from "./built-in-validator/built-in-validator
 import {ElementStatusComponent} from './element-status/element-status.component';
 import {FormReferenceVariableComponent} from './form-reference-variable/form-reference-variable.component';
 import {FormGroupComponent} from './form-group/form-group.component';
+import { CustomValidatorsComponent } from './custom-validators/custom-validators.component';
 
 @NgModule({
     declarations: [
@@ -14,7 +15,8 @@ import {FormGroupComponent} from './form-group/form-group.component';
         BuiltInValidatorComponent,
         ElementStatusComponent,
         FormReferenceVariableComponent,
-        FormGroupComponent
+        FormGroupComponent,
+        CustomValidatorsComponent,
     ],
     imports: [
         BrowserModule,
